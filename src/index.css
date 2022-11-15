@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Red Rose", cursive;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.span {
+  @apply text-primary font-bold;
+}
+
+.small_text {
+  @apply text-xs text-tinytext;
+}
+
+.footer_text {
+  @apply text-xl font-bold;
+}
+
+.footer_link {
+  @apply text-sm font-normal;
+}
