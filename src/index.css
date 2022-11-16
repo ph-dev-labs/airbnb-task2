@@ -17,9 +17,9 @@ body {
 }
 
 .footer_text {
-  @apply text-xl font-bold;
+  @apply text-xl font-bold smx:text-sm;
 }
 
 .footer_link {
-  @apply text-sm font-normal;
+  @apply text-sm font-normal smx:text-xs;
 }

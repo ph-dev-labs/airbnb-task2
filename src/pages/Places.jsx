@@ -25,7 +25,7 @@ function Places() {
   return (
     <div>
       <Categories />
-      <div className="mx-20 my-14">
+      <div className="px-20 smx:px-10 my-14 xsx:px-0">
         <div className="grid xsx:grid-cols-1 lgx:grid-cols-2 lg:grid-cols-4 gap-6">
           {images.map((image) => {
             return <Card img={image} />;

@@ -2,14 +2,14 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-black text-white">
-      <div className="smx:mx-9 mx-20 pt-14 pb-9">
+    <div className="bg-footer text-white">
+      <div className="smx:mx-9 xsx:mx-5 mx-20 pt-14 pb-9">
         <div className=" flex justify-between smx:flex-col">
           <div className="flex flex-col justify-between">
-            <div id="logo" className="w-56">
-              <img src="images/logo-2.svg" alt="" />
+            <div id="logo" className="w-56 xsx:w-40">
+              <img src="images/logo-2.svg" alt="log" />
             </div>
-            <div id="socials" className="flex space-x-5">
+            <div id="socials" className="flex space-x-5 smx:mt-12">
               <img src="images/facebook.svg" alt="facebook-icon" />
               <img src="images/instagram.svg" alt="instagram-icon" />
               <img src="images/twitter.svg" alt="twitter-icon" />
@@ -64,7 +64,9 @@ function Footer() {
           </div>
         </div>
         <div className="mt-10 smx:text-center">
-          <p className="text-base font-normal">&copy; 2022 Metabnb</p>
+          <p className="text-base font-normal smx:text-xs">
+            &copy; 2022 Metabnb
+          </p>
         </div>
       </div>
     </div>
